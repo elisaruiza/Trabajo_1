@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscríbete - Asoc. de empresarios de Alcaudete</title>
+    <link rel="stylesheet" media="screen" type="text/css" href="../css/principal.css" />
+    <link rel="stylesheet" media="screen" type="text/css" href="../css/secundario.css" />
+    <link rel="stylesheet" media="print" type="text/css" href="../css/imprimir.css" />
+</head>
+<body>
+    <div id="contenedor">
+        <header id="cabecera">
+            <h1>ASOCIACION DE COMERCIANTES DE ALCAUDETE</h1>
+            <div id="buscador">
+                <form action="" method="get">
+                    <fieldset>
+                        <legend>Buscador</legend>
+                        <input type="text" name="busqueda" size="30" />
+                        <input type="submit" name="botonbuscar" value="Buscar" />
+                    </fieldset>
+                </form>
+            </div>
+            <div class="clear"></div>
+        </header>
+        <nav id="menu">
+            <ul>
+                <li><a name="inicio" href="../index.html">Inicio</a></li>
+                <li><a name="quienessomos" href="quienes_somos.html">Quienes somos</a></li>
+                <li><a name="eventos" href="eventos.html">Eventos</a></li>
+                <li><a name="noticias1" href="locales.html">Noticias Locales</a></li>
+                <li><a name="noticias2" href="generales.html">Noticias Generales</a></li>
+                <li><a name="contacto" href="contacto.html">Contacto</a></li>
+                <li><a name="inscribete" href="inscripcion.html">Inscribete</a></li>
+            </ul>
+            <div class="clear"></div>
+        </nav>
+        <h2 class="titins">Inscribete</h2>
+        <p class="contact">Rellena el siguiente formulario para solicitar tu inscripción en la Asociacion:</p>
+        <div id="formularios">
+            <form id="forminscribete" action="" method="post">
+                <label class="contact" for="nombre">Nombre y apellidos</label><span class="requerido">*</span>
+                <br/>
+                <input type="text" id="nombre" name="nombre" maxlength="30" value="" size ="40"/>
+                <br/>
+                <br/>
+                <label class="contact" for="dni">DNI/NIE</label><span class="requerido">*</span>
+                <br/>
+                <input type="text" id="dni" name="dni" maxlength="9" value="" size="40"/>
+                <br/>
+                <br/>
+                <label class="contact" for="sexo">Sexo</label>
+                <br/>
+                <input type="radio" id="sexo" name="sexo" value="hombre" checked="checked" /> Hombre
+                <br/>
+                <input type="radio" name="sexo" value="mujer" /> Mujer
+                <br/>
+                <br/>
+                <label class="contact" for="nivel">Nivel de Estudios</label>
+                <br/>
+                <input type="radio" id="nivel" name="nivel" value="sin" checked="checked"/> Sin estudios
+                <br/>
+                <input type="radio" name="nivel" value="eso"/> Estudios obligatorios (ESO,EGB)
+                <br/>
+                <input type="radio" name="nivel" value="fp"/> Formación Profesional,Bachillerato
+                <br/>
+                <input type="radio" name="nivel" value="funi"/> Formación Universitaria
+                <br/>
+                <input type="radio" name="nivel" value="doctorado"/> Doctorado
+                <br/>
+                <br/>
+                <label class="contact" for="situacion">Situacion Actual</label>
+                <br/>
+                <input type="radio" id="situacion" name="situacion" value="estudiante" checked="checked"/> Estudiante
+                <br/>
+                <input type="radio" name="situacion" value="desempleado"/> Desempleado
+                <br/>
+                <input type="radio" name="situacion" value="autonomo"/> Trabajador Autónomo
+                <br/>
+                <input type="radio" name="situacion" value="ajena"/> Trabajador por cuenta ajena
+                <br/>
+                <input type="radio" name="situacion" value="funcionario"/> Funcionario
+                <br/>
+                <input type="radio" name="situacion" value="Jubilado"/> Jubilado
+                <br/>
+                <input type="radio" name="situacion" value="otros"/> Otros
+                <br/>
+                <br/>
+                <label class="contact" for="localidad">Localidad</label><span class="requerido">*</span>
+                <br/>
+                <input type="text" id="localidad" name="localidad"  maxlenght="20" value="" size="40"/>
+                <br/>
+                <br/>
+                <label class="contact" for="provincia">Provincia</label><span class="requerido">*</span>
+                <br/>
+                <input type="text" id="provincia" name="Provincia"  maxlenght="20" value="" size="40"/>
+                <br/>
+                <br/>
+                <label class="contact" for="telefono">Teléfono de contacto</label>
+                <br/>
+                <input type="text" id="telefono" name="telefono" maxlength="9" value="" size="40"/>
+                <br/>
+                <br/>
+                <label class="contact" for="email">Email</label><span class="requerido">*</span>
+                <br/>
+                <input type="text" id="email" name="email" maxlenght="30" value="" size="40"/>
+                <br/>
+                <br/>
+                <input type="checkbox" name="privacidad" value="aceptar"/><strong>Entiendo y acepto la politica de privacidad</strong>
+                <br/>
+                <br/>
+                <input class="botones" type="submit" name="enviar" value="Enviar"/>
+            </form>
+            <div class="clear"></div>
+        </div>
+        <section id="imgalcaudete">
+            <p><img src="../imagenes/alcaudete3.jpg" title="Imagen 3" /><p>
+            <p><img src="../imagenes/alcaudete4.jpg" title="Imagen 4" /><p>
+            <p><img src="../imagenes/alcaudete5.jpg" title="Imagen 5" /><p>
+            <p><img src="../imagenes/alcaudete6.jpg" title="Imagen 6" /><p>
+            <div class="clear"></div>
+        </section>
+        <footer id="pie">
+                <h4><ins>Contacto</ins></h4>
+                <p id="sede">Sede en Alcaudete<br/>
+                   Asocicaci&oacute;n de Comerciantes de Alcaudete<br/>
+                   C/ El Carmen, 100<br/>
+                   23660 - Alcaudete<br/>
+                   Telf.: 999 55 55 55<br/>
+                   e-mail: alcaudete@curso.es</p>
+                <p id="copyright">Copyright &copy; Elisa Ruiz Amaro</p>
+        </footer>
+    </div>
+</body>
+</html>

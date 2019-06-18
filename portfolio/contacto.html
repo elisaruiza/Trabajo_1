@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - Asoc. de empresarios de Alcaudete</title>
+    <link rel="stylesheet" media="screen" type="text/css" href="../css/principal.css" />
+    <link rel="stylesheet" media="screen" type="text/css" href="../css/secundario.css" />
+    <link rel="stylesheet" media="print" type="text/css" href="../css/imprimir.css" />
+</head>
+<body>
+    
+    <div id="contenedor">
+        <header id="cabecera">
+            <h1>ASOCIACION DE COMERCIANTES DE ALCAUDETE</h1>
+            <div id="buscador">
+                <form action="" method="get">
+                    <fieldset>
+                        <legend>Buscador</legend>
+                        <input type="text" name="busqueda" size="30" />
+                        <input type="submit" name="botonbuscar" value="Buscar" />
+                    </fieldset>
+                </form>
+            </div>
+            <div class="clear"></div>
+        </header>
+        <nav id="menu">
+            <ul>
+                <li><a name="inicio" href="../index.html">Inicio</a></li>
+                <li><a name="quienessomos" href="quienes_somos.html">Quienes somos</a></li>
+                <li><a name="eventos" href="eventos.html">Eventos</a></li>
+                <li><a name="noticias1" href="locales.html">Noticias Locales</a></li>
+                <li><a name="noticias2" href="generales.html">Noticias Generales</a></li>
+                <li><a name="contacto" href="contacto.html">Contacto</a></li>
+                <li><a name="inscribete" href="inscripcion.html">Inscribete</a></li>
+            </ul>
+            <div class="clear"></div>
+        </nav>
+        <h2 class="titform">CONTACTO</h2>
+        <section id="formularios">
+            <form id="formcontacto" action="" method="post">
+                <label class="contact" for="nombre">Nombre y apellidos</label><span class="requerido">*</span>
+                <br/>
+                <input type="text" id="nombre" name="nombre" maxlength="30" value="" size ="50"/>
+                <br/>
+                <br/>
+                <label class="contact" for="email">Email</label><span class="requerido">*</span>
+                <br/>
+                <input type="text" id="email" name="email" maxlenght="30" value="" size="50"/>
+                <br/>
+                <br/>
+                <label class="contact" for="telefono">Teléfono de contacto</label>
+                <br/>
+                <input type="text" id="telefono" name="telefono" maxlength="9" value="" size="50"/>
+                <br/>
+                <br/>
+                <label class="contact" for="asunto">Asunto</label><span class="requerido">*</span>
+                <br/>
+                <input type="text" id="asunto" name="asunto"  maxlenght="30" value="" size="50"/>
+                <br/>
+                <br/>
+                <label class="contact" for="mensaje">Mensaje</label><span class="requerido">*</span>
+                <br/>
+                <textarea id="mensaje" name="mensaje" cols="80" rows="5"></textarea>
+                <br/>
+                <br/>
+                <input type="checkbox" name="privacidad" value="aceptar"/><strong>Entiendo y acepto la politica de privacidad</strong>
+                <br/>
+                <input class="botones" type="submit" name="enviar" value="Enviar"/>
+            </form>
+            <div class="clear"></div>
+        </section>
+        <section id="imgalcaudete">
+            <p><img src="../imagenes/alcaudete1.jpg" title="Imagen 1" /><p>
+            <p><img src="../imagenes/alcaudete2.jpg" title="Imagen 2" /><p>
+            <div class="clear"></div>
+        </section>
+        <footer id="pie">
+                <h4><ins>Contacto</ins></h4>
+                <p id="sede">Sede en Alcaudete<br/>
+                   Asocicaci&oacute;n de Comerciantes de Alcaudete<br/>
+                   C/ El Carmen, 100<br/>
+                   23660 - Alcaudete<br/>
+                   Telf.: 999 55 55 55<br/>
+                   e-mail: alcaudete@curso.es</p>
+                <p id="copyright">Copyright &copy; Elisa Ruiz Amaro</p>
+        </footer>
+    </div>    
+</body>
+</html>
